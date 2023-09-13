@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Sans-serif;
+}
+
+.topo, .rodape {
+    color: #ffffff;
+    background: #ff8014;
+    text-align: center;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 20px;
+}
+
+.largura-limite {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.secao {
+    margin: 20px 35px;
+}
+
+.secao h2, .secao p {
+    margin: 20px 0;
+}
+
+.sobre {
+    max-height: 315px;
+    height: 100%;
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+.fotos {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.fotos img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
+
+.sobre p {
+    padding: 0 10px 0 0;
+}
